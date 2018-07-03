@@ -1,0 +1,155 @@
+body {
+  background-image: url(../images/white-logo.png);
+  background-size: contain;
+  background-color: #f6f6f6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+a.nav-link {
+  color: #a3a3a3;
+}
+
+a.navbar-brand {
+  color: #ffffff;
+}
+
+.panel-heading {
+  /* margin-top: 50px; */
+  padding: 10px 0px 10px 10px;
+  background-color: #f26C23;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #ffffff;
+}
+
+#lessons {
+  /* margin-top: 50px; */
+  padding: 14px 0px 12px 20px;
+  background-color: #42454a;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #2957a7;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 80px;
+  }
+
+#schedule-title{
+  margin-top: 0px;
+}
+
+#jumbotron {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url(../images/patternbanner.jpg);
+  margin: 0px;
+}
+
+#logo {
+  height: 300px;
+  margin: -30px 0px 0px 0px;
+}
+
+#nav {
+  color: #ffffff;
+}
+
+#teamresourcetitle, #teamnewstitle {
+  background-color: #42454a;
+  color: #ffffff;
+}
+
+#news {
+  margin-top: 20px;
+}
+
+.event_title {
+  font-weight: bold;
+}
+a.event_link {
+  color:#f26C23;
+}
+.event_link:hover {
+  text-decoration: none;
+  color: rgb(231, 95, 22);
+}
+
+.event_date {
+  margin-bottom: 1rem;
+}
+
+.list-group li {
+  list-style: none;
+}
+
+/* added for event links */
+/*______________________________________________________*/
+
+#instagram_feed {
+  width: 100%;
+}
+
+.insta_image {
+  max-width: 100%;
+}
+
+.img_holder  li   {
+  display: inline-block;
+  width: 15%;
+  margin-right: 1rem;
+}
+
+iframe {
+  display: block;
+  margin-top: 5px;
+}
+
+.hover-outline:hover {
+  outline: 5px solid #f26C23;
+  outline-offset: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #3a489c;
+  color: white;
+}
+
+.modal-header, .modal-footer {
+  background-color: #d2d2d2;
+}
+
+.modal-body {
+  background-image: url(../images/white-logo.png);
+  background-color: #f6f6f6;
+}
+
+/* form styles on admin page */
+/*-----------------------------------------------------------------------*/
+
+#player {
+  margin-bottom: 2rem;
+}
+
+.btn-blue {
+  background-color: #2F5BA3;
+}
+
+.btn-blue:hover {
+  background-color: #27275B;
+}
